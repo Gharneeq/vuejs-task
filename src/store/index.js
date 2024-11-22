@@ -45,8 +45,7 @@ const permissions = {
 const store = new Vuex.Store({
   state: {
     currentUser: {
-      // profile: import.meta.env.VITE_USER_ROLE || "obr",
-      profile: "eng",
+      profile: import.meta.env.VITE_USER_ROLE,
     },
     roleOptions: {
       gea: "Global Engineering Admin",
